@@ -5,6 +5,7 @@ public class hi {
         range();
         printIsNumberPositive(9);
        isNumberPositive (109);
+       words(6, "GeekBrains");
 
     }
 
@@ -37,5 +38,12 @@ public class hi {
         }
 
     }
+
+    public static void words(int a, String b) {
+        for (int i = 0; i < a; i++) {
+            System.out.println(b);
+        }
+    }
+
 }
 
